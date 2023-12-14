@@ -38,12 +38,11 @@ function AnimeCard({ anime, index }: Prop) {
 			viewport={{ amount: 0 }}
 			className="max-w-sm rounded relative w-full"
 		>
-			<div className="relative w-full h-[35vh] max-h-[320px]">
+			<div className="relative w-full h-[35vh] max-h-[350px] rounded-xl">
 				<Image
 					src={`https://shikimori.one${anime.image.original}`}
 					alt={anime.name}
 					fill
-					className="rounded-xl"
 				/>
 			</div>
 
@@ -83,17 +82,17 @@ function AnimeCard({ anime, index }: Prop) {
 					</div>
 				</div>
 			</div>
-			<div className="flex justify-center items-center">
+			<div className="absolute flex top-4 right-4 justify-center items-center">
 				{anime.status === "ongoing" ? (
-					<p className="text-sm font-bold py-1 px-2 bg-[#0b250a] text-[#42bd3e]">
+					<p className="text-sm font-bold py-1 px-2 bg-[#0b250a] text-[#42bd3e] rounded-lg">
 						em andamento
 					</p>
 				) : anime.status == "released" ? (
-					<p className="text-sm  font-bold bg-[#270e33] text-[#8236a5] py-1 px-2 rounded-sm">
+					<p className="text-sm  font-bold bg-[#4b2808] text-[#da8434] py-1 px-2 rounded-lg">
 						finalizado
 					</p>
 				) : (
-					<p className="text-sm font-bold bg-[#350e0e] text-[#ff5151] py-1 px-2 rounded-sm">
+					<p className="text-sm font-bold bg-[#350e0e] text-[#ff5151] py-1 px-2 rounded-lg">
 						na
 					</p>
 				)}

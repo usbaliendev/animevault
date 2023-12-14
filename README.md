@@ -2,5 +2,5 @@
 
 ![Anime Website](https://i.ibb.co/MG1nbqt/YT-Thumbnails-2.png)
 
-### [🌐 My portfolio wensite](https://usbaliendev.com/)
+### [🌐 My portfolio website](https://usbaliendev.com/)
 

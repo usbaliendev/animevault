@@ -71,3 +71,6 @@ Todo o resto é feito no servidor de forma rápida, eficiente e aumentando muito
 
 * Infinite Scroll - [React intersection Observer](https://www.npmjs.com/package/react-intersection-observer)
 * [Framer Motion](https://www.framer.com/motion/)
+
+### Feito estudando:
+[NextJS Partia PreRendering](https://www.partialprerendering.com/)

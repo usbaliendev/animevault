@@ -1,6 +1,6 @@
 # Um aplicativo moderno serverside Next 14 com ações de servidor, rolagem infinita e animações framer-motion
 
-![Anime Website](https://i.ibb.co/MG1nbqt/YT-Thumbnails-2.png)
+![Anime Website](https://raw.githubusercontent.com/usbaliendev/animevault/main/public/project.png)
 
 ### [🌐 Meu portfolio website](https://usbaliendev.com/)
 
@@ -61,7 +61,7 @@ No projeto aqui usei server actions para fazer as request da API, dessa forma qu
 
 Todo o resto é feito no servidor de forma rápida, eficiente e aumentando muito a performance da aplicação.
 
-# ESSE PROJETO SERÁ ATUALIZADO COM MAIS FUNCIONALIDADES COM O TEMPO
+### ESSE PROJETO SERÁ ATUALIZADO COM MAIS FUNCIONALIDADES COM O TEMPO
 
 ### API usada:
 

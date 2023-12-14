@@ -13,6 +13,13 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.grey-gradient {
+  background: linear-gradient(92deg, #c0c0c0 2.87%, #646464 96.18%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 :root {
   color-scheme: dark;
 }

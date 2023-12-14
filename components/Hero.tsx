@@ -20,7 +20,7 @@ function Hero() {
 				</h2>
 			</div>
 			<div className="lg:flex-1 relative w-full h-[30vh] justify-center">
-				<Image src="/anime.png" alt="anime" fill className="object-contain" />
+				<Image src="/anime.png" alt="anime" fill className="object-contain rounded-[40%]" />
 			</div>
 		</header>
 	);

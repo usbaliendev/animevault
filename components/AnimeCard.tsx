@@ -11,6 +11,7 @@ export interface AnimeProp {
 	episodes: number;
 	episodes_aired: number;
 	score: string;
+	status: string;
 }
 
 interface Prop {
@@ -45,6 +46,7 @@ function AnimeCard({ anime, index }: Prop) {
 					className="rounded-xl"
 				/>
 			</div>
+
 			<div className="py-4 flex flex-col gap-3">
 				<div className="flex justify-between items-center gap-1">
 					<h2 className="font-bold text-white text-xl line-clamp-1 w-full">
@@ -80,6 +82,21 @@ function AnimeCard({ anime, index }: Prop) {
 						<p className="text-base font-bold text-[#FFAD49]">{anime.score}</p>
 					</div>
 				</div>
+			</div>
+			<div className="flex justify-center items-center">
+				{anime.status === "ongoing" ? (
+					<p className="text-sm font-bold py-1 px-2 bg-[#0b250a] text-[#42bd3e]">
+						em andamento
+					</p>
+				) : anime.status == "released" ? (
+					<p className="text-sm  font-bold bg-[#270e33] text-[#8236a5] py-1 px-2 rounded-sm">
+						finalizado
+					</p>
+				) : (
+					<p className="text-sm font-bold bg-[#350e0e] text-[#ff5151] py-1 px-2 rounded-sm">
+						na
+					</p>
+				)}
 			</div>
 		</MotionDiv>
 	);
